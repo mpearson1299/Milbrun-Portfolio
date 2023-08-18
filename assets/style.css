@@ -1,0 +1,67 @@
+:root{
+    --white: #fff;
+    --blue: #0813eb;
+    --red: #eb0808;
+    
+}
+
+* {
+    box-sizing: border-box;
+    margin: revert;
+    padding: 0;
+}
+
+header {
+    padding: 20px;
+    background-color: var(--blue);
+    color: var(--white);
+}
+
+nav {
+    display: flex;
+    color: var(var(--white));
+    background-color: var(--red);
+}
+
+nav a {
+    padding: 14px 20px;
+    text-align: center;
+    color:#fff;
+}
+
+main {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.about-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+}
+
+.Work {
+    display: block;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 29px;
+    margin-inline-end: 50px;
+    padding-inline-start: 40px;
+    background-color: #0072bb;
+    color: #fff;
+    width: 50%;
+    justify-content: space-evenly;
+}
+
+.contact-me {
+    margin-bottom: 20px;
+    padding: 50px;
+    height: 300px;
+    background-color: #0072bb;
+    color: #ffffff;
+    justify-content: space-evenly;
+}
